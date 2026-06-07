@@ -1,8 +1,0 @@
-2026-06-06T13:34:38+03:00 -- info -- Processing Transactions User Ali Transaction with value -20, User Ali Transaction with value -30, User Ali Transaction with value -50, User Ali Transaction with value -100, User Ali Transaction with value -100, User Menna Transaction with value -100
-2026-06-06T13:34:38+03:00 -- info -- User Ali Transaction with value -20 succeeded
-2026-06-06T13:34:38+03:00 -- info -- User Ali Transaction with value -30 succeeded
-2026-06-06T13:34:38+03:00 -- info -- User Ali Transaction with value -50 succeeded
-2026-06-06T13:34:38+03:00 -- info -- User Ali Transaction with value -100 succeeded
-2026-06-06T13:34:38+03:00 -- warning -- Ali has 0 balance
-2026-06-06T13:34:38+03:00 -- error -- User Ali Transaction with value -100 failed with message No available balance
-2026-06-06T13:34:38+03:00 -- error -- User Menna Transaction with value -100 failed with message Menna not exist in the bank!!
