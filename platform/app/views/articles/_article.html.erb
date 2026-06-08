@@ -1,0 +1,30 @@
+<div id="<%= dom_id article %>">
+  <div>
+    <strong>Title:</strong>
+    <%= article.title %>
+  </div>
+
+  <div>
+    <strong>Body:</strong>
+    <%= article.body %>
+  </div>
+
+  <div>
+    <strong>Public:</strong>
+    <%= article.public %>
+  </div>
+
+  <div>
+    <strong>User:</strong>
+    <%= article.user_id %>
+  </div>
+
+  <% if article.image.attached? %>
+    <div>
+      <%= image_tag article.image, style: "max-width: 300px; display: block;" %>
+    </div>
+  <% end %>
+
+  <%= button_to "Report Article", report_article_path(article), method: :post %>
+
+</div>
